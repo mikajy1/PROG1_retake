@@ -11,3 +11,4 @@ function order(tableau){
     return [zero, uno];
 }
 console.log(order([0, 1, 0, 1, 1, 0, 1]));
+exports.order = order;
